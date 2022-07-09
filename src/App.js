@@ -1,4 +1,5 @@
 import Banner from './Allpages/Banner/Banner';
+import Cards from './Allpages/Cards/Cards';
 import DownBanner from './Allpages/DownBanner/DownBanner';
 import Nav from './Allpages/Navbar/Nav';
 import NewColletion from './Allpages/NewColletion/NewColletion';
@@ -15,6 +16,8 @@ function App() {
       <DownBanner />
       {/* NEW COLLECTION part */}
       <NewColletion />
+      {/* Top Month Sellers */}
+      <Cards></Cards>
     </div>
   );
 }
