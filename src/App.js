@@ -1,23 +1,14 @@
-import Banner from './Allpages/Banner/Banner';
-import Cards from './Allpages/Cards/Cards';
-import DownBanner from './Allpages/DownBanner/DownBanner';
-import Nav from './Allpages/Navbar/Nav';
-import NewColletion from './Allpages/NewColletion/NewColletion';
-import './App.css';
+import Banner from './Allcomponents/Banner';
+import BigCard from './Allcomponents/BigCard';
+import Navbar from './Allcomponents/Navbar';
+import './Allcomponents/AllCss.css'
 
 function App() {
   return (
-    <div className='font-sans'>
-      {/* navbar part */}
-      <Nav />
-      {/* Banner part  */}
+    <div className='font-sans m-auto'>
+      <Navbar />
       <Banner />
-      {/* DownBanner part */}
-      <DownBanner />
-      {/* NEW COLLECTION part */}
-      <NewColletion />
-      {/* Top Month Sellers */}
-      <Cards></Cards>
+      <BigCard />
     </div>
   );
 }

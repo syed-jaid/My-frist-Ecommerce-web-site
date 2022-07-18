@@ -1,0 +1,395 @@
+.share-div {
+    display: none;
+}
+
+@media screen and (max-width: 1180px) {
+
+    .banner-title {
+        left: 150px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .banner-title {
+        left: 150px;
+    }
+
+    .big-main-cards {
+        padding: 13px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+
+    .banner-title {
+        left: 140px;
+    }
+
+    .big-main-cards {
+        padding: 13px;
+    }
+
+    .navbar-main-div {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .worrning-card {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 850px) {
+
+    .banner-title {
+        left: 100px;
+    }
+
+    .big-main-cards {
+        padding: 13px;
+    }
+
+    .navbar-main-div {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .worrning-card {
+        display: none;
+    }
+
+    .single-card {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 740px) {
+
+    .navbar-main-div {
+        display: none;
+    }
+
+    .navbar-main-div2 {
+        display: block;
+    }
+
+    .banner-title {
+        left: 70px;
+    }
+
+    .banner-title h1 {
+        font-size: 32px;
+    }
+
+    .banner-title p {}
+
+    .big-main-cards {
+        padding: 13px;
+    }
+
+    .worrning-card {
+        display: none;
+    }
+
+    .button-div {
+        display: none;
+    }
+
+    .filter-button {
+        display: inline;
+    }
+
+    .single-card {
+        width: 100%;
+    }
+
+    .ux-card-title {
+        font-size: 16px;
+    }
+
+    .login-card {
+        display: none;
+    }
+
+    .form-div {
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 570px) {
+
+    .navbar-main-div {
+        display: none;
+    }
+
+    .banner-title {
+        left: 80px;
+    }
+
+    .big-main-cards {
+        padding: 13px;
+    }
+
+    .worrning-card {
+        display: none;
+    }
+
+    .button-div {
+        display: none;
+    }
+
+    .filter-button {
+        display: inline;
+    }
+
+    .single-card {
+        width: 100%;
+    }
+
+    .card-main-title {
+        font-size: 19px;
+    }
+
+    .ux-card-title {
+        font-size: 16px;
+    }
+
+    .login-card {
+        display: none;
+    }
+
+    .form-div {
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 560px) {
+
+    .navbar-main-div {
+        display: none;
+    }
+
+    .banner-title {
+        left: 80px;
+    }
+
+    .big-main-cards {
+        padding: 13px;
+    }
+
+    .worrning-card {
+        display: none;
+    }
+
+    .button-div {
+        display: none;
+    }
+
+    .filter-button {
+        display: inline;
+    }
+
+    .post-main-count1 {
+        display: none;
+    }
+
+    .post-main-count2 {
+        display: inline;
+    }
+
+    .single-card {
+        width: 100%;
+    }
+
+    .card-main-title {
+        font-size: 18px;
+    }
+
+    .ux-card-title {
+        display: none;
+    }
+
+    .ux-card-title2 {
+        font-size: 16px;
+        display: inline;
+    }
+
+    .login-card {
+        display: none;
+    }
+
+    .form-div {
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 485px) {
+
+    .navbar-main-div {
+        display: none;
+    }
+
+    .banner-title {
+        left: 20px;
+        width: 300px;
+    }
+
+    .banner-title h1 {
+        font-size: 25px;
+    }
+
+    .big-main-cards {
+        padding: 13px;
+    }
+
+    .worrning-card {
+        display: none;
+    }
+
+    .button-div {
+        display: none;
+    }
+
+    .filter-button {
+        display: inline;
+    }
+
+    .post-main-count1 {
+        display: none;
+    }
+
+    .post-main-count2 {
+        display: inline;
+    }
+
+    .single-card {
+        width: 100%;
+    }
+
+    .card-main-title {
+        font-size: 17px;
+    }
+
+    .ux-card-title {
+        display: none;
+    }
+
+    .ux-card-title2 {
+        font-size: 16px;
+        display: inline;
+    }
+
+    .login-card {
+        display: none;
+    }
+
+    .form-div {
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 436px) {
+
+    .navbar-main-div {
+        display: none;
+    }
+
+    .banner-title {
+        left: 20px;
+        width: 280px;
+    }
+
+    .banner-title h1 {
+        font-size: 23px;
+    }
+
+    .big-main-cards {
+        padding: 13px;
+    }
+
+    .worrning-card {
+        display: none;
+    }
+
+    .button-div {
+        display: none;
+    }
+
+    .filter-button {
+        display: inline;
+    }
+
+    .post-main-count1 {
+        display: none;
+    }
+
+    .post-main-count2 {
+        display: inline;
+    }
+
+    .single-card {
+        width: 100%;
+    }
+
+    .card-main-title {
+        font-size: 16px;
+        width: 320px;
+    }
+
+    .ux-card-title {
+        display: none;
+    }
+
+    .ux-card-title2 {
+        font-size: 14px;
+        display: inline;
+    }
+
+    .card-main-info {
+        padding-bottom: 20px;
+    }
+
+    .card-info {
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    .person-img {
+        height: 37px;
+    }
+
+    .person-name {
+        font-size: 13px;
+    }
+
+    .view-main {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .view-count {
+        display: block;
+    }
+
+    .view-count-1 {
+        display: none;
+    }
+
+    .share-div {
+        display: inline;
+    }
+
+    .share-img1 {
+        display: none;
+    }
+
+    .login-card {
+        display: none;
+    }
+
+    .form-div {
+        margin: auto;
+    }
+}
